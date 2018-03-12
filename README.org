@@ -1,0 +1,19 @@
+* cerebro-web-search
+
+Define custom web searches.
+
+* Usage
+
+1. Go to this plugins settings
+2. Define templates with a comma seperated string of ~keyword~ to ~web url format~ pairs.
+  #+begin_src 
+  goog|https://google.com/search?q={},wiki|https://wikipedia.org/wiki/{}
+  #+end_src
+3. In cerebro, type a keyword in
+   #+begin_src
+   goog cats
+   #+end_src
+4. Hit enter
+
+
+
