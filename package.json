@@ -19,5 +19,6 @@
     "test": "cerebro-scripts test",
     "clear": "cerebro-scripts clear",
     "prepublish": "yarn clear && yarn build"
-  }
+  },
+  "license": "MIT"
 }
