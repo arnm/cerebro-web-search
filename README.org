@@ -1,6 +1,6 @@
 * cerebro-web-search
 
-Define custom web searches.
+Define custom web searches in cerebro.
 
 * Usage
 

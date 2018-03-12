@@ -50,7 +50,7 @@ export const fn = ({
     }) => {
 
         display({
-            title: `Search ${key} for ${term}`,
+            title: `Search ${key} for ${term.replace(key, '').trim()}`,
             subtitle: `${url}`,
             onSelect: () => search(url)
         });
